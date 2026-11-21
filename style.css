@@ -1,5 +1,4 @@
 /* SHINE by SWE – Sandal, ivory & gold (colours taken from the logo) */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap');
 :root{--ivory:#fffaf3;--sand:#f5e9d9;--blush:#f9e6e0;--rose:#e58c7e;--gold:#b8761f;--gold2:#d9a441;--gold3:#f0cc7a;--gold-deep:#8f5a10;--brown:#3a1f0f;--espresso:#24120a;--muted:#7a6657;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;
 --foil:linear-gradient(110deg,#8f5a10 0%,#c98a25 28%,#ecc468 50%,#c98a25 72%,#8f5a10 100%)}
 *{box-sizing:border-box}
@@ -53,6 +52,8 @@ a{color:inherit;text-decoration:none}
 @keyframes frame{from{opacity:0;transform:scale(.96)}}
 .hero-content{position:relative;z-index:2}
 .hero-text{max-width:860px;margin:0 auto}
+.h1-kw{display:block;font:700 .74rem var(--sans);letter-spacing:.28em;text-transform:uppercase;color:var(--gold-deep);margin-bottom:22px}
+.h1-kw span{display:inline-block;width:34px;height:1px;background:var(--gold);vertical-align:middle;margin:0 12px}
 .eyebrow{color:var(--gold-deep);font-size:.74rem;letter-spacing:.28em;font-weight:700;margin-bottom:20px}
 .eyebrow span{display:inline-block;width:34px;height:1px;background:var(--gold);vertical-align:middle;margin:0 12px}
 .hero h1,.section-title{font:600 clamp(3.2rem,7vw,6.4rem)/1.05 var(--serif);letter-spacing:-.035em;margin:0 0 22px;color:var(--brown)}
@@ -102,7 +103,7 @@ a{color:inherit;text-decoration:none}
 .filter-row{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0}
 .filter-btn{border:1px solid var(--gold);background:transparent;color:var(--gold-deep);border-radius:50px;padding:9px 20px;font-size:.8rem;transition:.3s}
 .filter-btn.active,.filter-btn:hover{background:var(--foil);color:#fff;border-color:transparent}
-.look-card{display:block;position:relative;overflow:hidden;height:430px;border:1px solid rgba(184,118,31,.45);transition:transform .3s,box-shadow .4s;background:#ecd9c2}
+.look-card{background-image:linear-gradient(160deg,#f3d99a,#e8b4a6)!important;display:block;position:relative;overflow:hidden;height:430px;border:1px solid rgba(184,118,31,.45);transition:transform .3s,box-shadow .4s;background:#ecd9c2}
 .look-card img{width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
 .look-card:hover img{transform:scale(1.1)}
 .look-card:hover{box-shadow:0 22px 50px rgba(58,31,15,.3)}
@@ -161,4 +162,8 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offse
 @media(max-width:991px){.hero{padding-top:115px}.hero-frame{inset:84px 14px 14px}.location-card{margin:10px 0 0;max-width:none}}
 @media(max-width:767px){.section-pad{padding:78px 0}.about-photo{height:430px}.look-card{height:370px}.hero h1{font-size:3.2rem}.eyebrow span{width:18px;margin:0 7px}.site-footer .container{text-align:center}.scroll-hint{display:none}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}#loader{display:none}}
-@media(prefers-reduced-motion:reduce){.track{animation:slide 60s linear infinite!important}}
+
+/* Areas served */
+.area-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px;max-width:560px}
+.area-chips span{border:1px solid rgba(184,118,31,.45);color:var(--gold-deep);border-radius:50px;padding:5px 14px;font-size:.78rem;background:#fff;transition:.25s}
+.area-chips span:hover{background:var(--gold);color:#fff}
