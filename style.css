@@ -1,4 +1,4 @@
-/* SHINE by SWE – Sandal, ivory & gold (colours taken from the logo) */
+/* Shine by Swe – Sandal, ivory & gold (colours taken from the logo) */
 :root{--ivory:#fffaf3;--sand:#f5e9d9;--blush:#f9e6e0;--rose:#e58c7e;--gold:#b8761f;--gold2:#d9a441;--gold3:#f0cc7a;--gold-deep:#8f5a10;--brown:#3a1f0f;--espresso:#24120a;--muted:#7a6657;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;
 --foil:linear-gradient(110deg,#8f5a10 0%,#c98a25 28%,#ecc468 50%,#c98a25 72%,#8f5a10 100%)}
 *{box-sizing:border-box}

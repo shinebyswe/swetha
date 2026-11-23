@@ -1,4 +1,4 @@
-SHINE by SWE – final website
+Shine by Swe – final website
 
 Files (keep this structure):
   index.html
