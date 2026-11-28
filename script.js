@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   // Gallery filter
   $$('.filter-btn').forEach(btn=>btn.addEventListener('click',()=>{
     $$('.filter-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');
-    const f=btn.dataset.filter;$$('.gallery-item').forEach(i=>i.style.display=(f==='all'||i.dataset.category===f)?'':'none');
+    const f=btn.dataset.filter;$$('.gallery-item').forEach(i=>i.style.display=(f==='all'||i.dataset.category.split(' ').includes(f))?'':'none');
   }));
 
   // Scroll: navbar, progress, back-to-top

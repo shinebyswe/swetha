@@ -1,15 +1,16 @@
-Shine by Swe – final website
+Shine by Swe - website (stock images version)
 
-Files (keep this structure):
-  index.html
-  style.css
-  script.js
-  assets/logo.png  assets/favicon.png  assets/og-cover.jpg
+Upload ALL of these to your GitHub repository (keep the folders):
+  index.html, style.css, script.js, sitemap.xml
+  assets/   (logo.png, logo-192.png, favicon.png, og-cover.jpg)
+  makeup-artist-singanallur/index.html
+  bridal-makeup-coimbatore/index.html
+  party-makeup-coimbatore/index.html
+  hair-styling-saree-draping-coimbatore/index.html
+  baby-shower-puberty-function-makeup-coimbatore/index.html
 
-Theme (from the logo): ivory & sandal base, gold accents, soft blush pink, deep espresso brown.
-Change colours in the :root block at the top of style.css.
+Do NOT delete your Google verification file (google....html).
+If you uploaded an assets/looks folder earlier, delete it from the repository.
 
-Before publishing:
-1. Replace the Unsplash demo photos (About and Lookbook) with Swetha's real photos.
-2. In index.html, change https://example.com/ (og:url) to the live GitHub Pages address.
-3. Upload all files and the assets folder to GitHub, then Settings > Pages > main branch.
+Gallery and About photos are Unsplash stock images (placeholders).
+Replace them with Swetha's own photos later.
